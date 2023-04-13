@@ -1,3 +1,6 @@
+import React from "react";
+import Statistics from "./Statistics/Statistics";
+
 export const App = () => {
   return (
     <div
@@ -5,12 +8,11 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
         fontSize: 40,
         color: '#010101'
       }}
     >
-      React homework template
+      <Statistics/>
     </div>
   );
 };

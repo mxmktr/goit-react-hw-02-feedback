@@ -43,6 +43,7 @@ class Statistics extends Component {
             <p>Bad: {bad}</p>
             <p>Total: {this.totalReviewCalc()}</p>
             <p>Total: {this.positiveReviewShare()}%</p>
+            <p>Вот те раз!</p>
           </div>
         )}
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import css from './Section.module.css';
 
 export default function Section({ message, children }) {
@@ -9,3 +10,7 @@ export default function Section({ message, children }) {
     </>
   );
 }
+
+Section.propTypes = {
+  message: PropTypes.string,
+};
